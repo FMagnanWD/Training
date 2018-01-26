@@ -1,0 +1,107 @@
+body,html {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.5px;
+}
+body {
+    padding-top: 0px;
+}
+.slogan{
+    font-size: 3.4em;
+    color: #f7f7f7;
+    text-shadow:2px 2px 8px #303030;
+}
+/** Bootstrap Navbar personalisation End **/
+#custom-nav {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    box-shadow: none;
+    z-index: 999;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: background .5s ease-in-out, opacity .5s ease;
+    -moz-transition: background .5s ease-in-out, opacity .5s ease;
+    transition: background .5s ease-in-out, opacity .5s ease;
+}
+.navbar-default .navbar-nav > .active > a {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0, 0.4);
+}
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0, 0.4);
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    background-color: rgba(0,0,0, 0.4);
+    color: #555;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    margin-top: 2px;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: #303030;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    background-clip: padding-box;
+}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+/** Bootstrap Navbar personalisation End **/
+.wide {
+    width:100%;
+    height:100%;
+    height:calc(100% - 1px);
+    background-image:url('https://static.pexels.com/photos/544917/pexels-photo-544917.jpeg');
+    background-size:cover;
+}
+.wide img {
+    width:100%;
+}
+.logo {
+    color:#fff;
+    font-weight:800;
+    font-size:14pt;
+    margin-top:40px;
+    padding:25px;
+    text-align:center;
+    min-height: 79px;
+}
+
+.line {
+    padding-top:50px;
+    color: #000;
+    white-space:no-wrap;
+    overflow:hidden;
+    text-align:center;
+}
+hr.black {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    border: 0;
+    border-top-width: 0px;
+    border-top-style: none;
+    border-top-color: currentcolor;
+    border-top: 1px solid rgba(0,0,0, 0.6);
+}
